@@ -1,0 +1,52 @@
+Release Notes
+版本 1.1.4 （Build 15）
+ -发行时间 2024/02/02
+ -新增功能	
+	-N/A
+ -解决问题
+	-解决MNT L6 2nd Source 在RCP端加载速度过慢的Bug #761（Dev:余华胜，SA:Leo）
+	-解决MNT L6 2nd Source 在RCP端同步速度过慢的Bug #761（Dev:余华胜，SA:Leo）
+	-修复MNT L6 2nd Source 利用C++方式加载数据出现500的错误 #761（Dev:余华胜，SA:Leo）
+ -已知问题
+	-MNT L6 EBOM 管理器 RCP端加载速度较慢
+	-MNT L6 2nd Source RCP端加载速度较慢
+	-MNT L6 2nd Source RCP端同步速度较慢
+
+版本 1.1.3 （Build 14）
+ -发行时间 2024/1/29
+ -新增功能	
+	-N/A
+ -解决问题
+	-依据SA 要求 将EBOM 首选项 D9_MNT_L6EBOM_WFNode 名称改为 D9_MNT_EBOM_WFNode #761（Dev:彭晔，SA:Leo）
+ -已知问题
+	-MNT L6 EBOM 管理器 RCP端加载速度较慢
+	-MNT L6 2nd Source RCP端加载速度较慢
+
+版本 1.1.2 （Build 13）
+ -发行时间 2024/1/25
+ -新增功能	
+	-N/A
+ -解决问题
+	-解决MNT L6 EBOM 管理器 判断EE 角色修改权限bug #761（Dev:彭晔，SA:Leo）
+ -已知问题
+	-MNT L6 EBOM 管理器 RCP端加载速度较慢
+	-MNT L6 2nd Source RCP端加载速度较慢
+
+版本 1.1.1 （Build 12）
+ -发行时间 2024/1/25
+ -新增功能	
+	-N/A
+ -解决问题
+	-解决MNT L6 EBOM 管理器 RCP端加载速度较慢的问题 #761（Dev:彭晔，SA:Leo）
+ -已知问题
+	-MNT L6 EBOM 管理器 RCP端加载速度较慢
+	-MNT L6 2nd Source RCP端加载速度较慢
+
+版本 1.1.1 （Build 11）
+ -发行时间 2024/1/11
+ -新增功能	
+	-N/A
+ -解决问题
+	-解决MNT L6 2nd Source 在RCP端加载速度过慢的Bug #761（Dev:余华胜，SA:Leo）
+ -已知问题
+	-MNT L6 2nd Source RCP端加载速度较慢

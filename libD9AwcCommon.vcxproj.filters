@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\2ndsource">
+      <UniqueIdentifier>{0246bfed-b131-4617-87f6-d0848a0b3a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{53d56b4f-394a-434e-89bb-15eddffe3443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\2ndsource">
+      <UniqueIdentifier>{aa7032cf-3c8d-412f-b7a2-afba50e890b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tcconstant">
+      <UniqueIdentifier>{79a635b3-dcb5-45bf-8fd1-9ff370cd983c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcconstant">
+      <UniqueIdentifier>{0018f18d-ff43-4c78-a7cc-eaf8ca629128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="版本提交记录">
+      <UniqueIdentifier>{27a27113-f55a-4b13-b90a-833338d4791f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mntebom">
+      <UniqueIdentifier>{149ee4d2-4b41-4283-83cc-a76d2eab5dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mntebom">
+      <UniqueIdentifier>{47486419-50d7-4c12-84d9-7122de0715f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hxx">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="preference.h">
+      <Filter>头文件\tcconstant</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件\tcconstant</Filter>
+    </ClInclude>
+    <ClInclude Include="tcprop.h">
+      <Filter>头文件\tcconstant</Filter>
+    </ClInclude>
+    <ClInclude Include="getSync2ndSourceParams.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="get2ndSourceStruct.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="getSync2ndSourceStruct.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="getSelectSync2ndSourceStruct.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="getMntEBomStruct.h">
+      <Filter>头文件\mntebom</Filter>
+    </ClInclude>
+    <ClInclude Include="secondSourceCommonUtils.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="save2ndSource.h">
+      <Filter>头文件\2ndsource</Filter>
+    </ClInclude>
+    <ClInclude Include="version_pattern.h">
+      <Filter>头文件\tcconstant</Filter>
+    </ClInclude>
+    <ClInclude Include="updateMntEBom.h">
+      <Filter>头文件\mntebom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="getMntEBomStruct.cpp">
+      <Filter>源文件\mntebom</Filter>
+    </ClCompile>
+    <ClCompile Include="tcprop.cpp">
+      <Filter>源文件\tcconstant</Filter>
+    </ClCompile>
+    <ClCompile Include="getSync2ndSourceParams.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="secondSourceCommonUtils.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="get2ndSourceStruct.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="getSync2ndSourceStruct.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="getSelectSync2ndSourceStruct.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="save2ndSource.cpp">
+      <Filter>源文件\2ndsource</Filter>
+    </ClCompile>
+    <ClCompile Include="updateMntEBom.cpp">
+      <Filter>源文件\mntebom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReleaseNotes.txt">
+      <Filter>版本提交记录</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
